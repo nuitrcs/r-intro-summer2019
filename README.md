@@ -2,8 +2,6 @@
 
 Northwestern IT [Research Computing Services](http://www.it.northwestern.edu/research/)
 
-NOTE: Workshop materials may be updated before the next workshop date.  You may want to wait to download materials until close to the workshop date (or the morning of) to get the most current version.
-
 # Software and Files
 
 ## R and RStudio Installation Instructions
@@ -20,7 +18,7 @@ If you installed R and RStudio on your laptop, download all of the materials to 
 
 ![github download](images/githubdownload.png)
 
-Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r\_intro\_june2018-master.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
+Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r-intro-summer2019-master.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
 
 You should open the `Rproj` file named something like `rintro2019.Rproj` in this folder to open the materials as an RStudio project.  Double-click on it from your Finder/File Explorer, or from RStudio, File menu > Open Project..., then navigate to the location of the file.
 
