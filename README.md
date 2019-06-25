@@ -28,7 +28,7 @@ If you're using RStudio Cloud, go to https://rstudio.cloud and log in (or create
 
 ![rstudio cloud new project](images/rstudiocloud.png)
 
-This will copy all of the files from this repository into your new project.  This will take a few moments to copy files from this repository.  You'll then need to install packages.  Open `packagelist.r` and run the code.  The tidyverse package will take a while to install.  
+This will copy all of the files from this repository into your new project.  This will take a few moments to copy files from this repository.  You'll then need to install packages.  The tidyverse package will take a while to install.  
 
 You can use this space like you would your RStudio on own computer, except you can only access the files that are part of the project and save files within the project.
 
