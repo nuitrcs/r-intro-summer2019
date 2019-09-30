@@ -33,7 +33,7 @@
     * Sends a full command, even over multiple lines
 
     MAC: command + return \
-    PC: Ctrl + r
+    PC: Ctrl + return
 
 
 

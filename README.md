@@ -20,7 +20,7 @@ If you installed R and RStudio on your laptop, download all of the materials to 
 
 Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r-intro-summer2019-master.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
 
-You should open the `Rproj` file named something like `rintro2019.Rproj` in this folder to open the materials as an RStudio project.  Double-click on it from your Finder/File Explorer, or from RStudio, File menu > Open Project..., then navigate to the location of the file.
+**Double-click on `rintro2019.Rproj` to open the project.** Or from RStudio, File menu > Open Project..., then navigate to the location of the file.
 
 ### Option 2: RStudio Cloud
 
