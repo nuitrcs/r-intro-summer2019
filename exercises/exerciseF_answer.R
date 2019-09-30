@@ -30,6 +30,5 @@ subset(safi,
        select=c(village, respondent_wall_type, rooms))
 # Note: technically, there's some dirty data and multiple burntbricks values:
 subset(safi,
-       subset=(respondent_wall_type == "burntbricks" | respondent_wall_type == " burntbricks") & 
-         rooms == 1,
+       subset=respondent_wall_type == "burntbricks" & rooms == 1,
        select=c(village, respondent_wall_type, rooms))

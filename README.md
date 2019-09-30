@@ -24,11 +24,11 @@ You should open the `Rproj` file named something like `rintro2019.Rproj` in this
 
 ### Option 2: RStudio Cloud
 
-If you're using RStudio Cloud, go to https://rstudio.cloud and log in (or create an account if needed).  Click on Your Workspace in the left Menu.  Then make sure you are on the Projects tab, and click down arrow in the blue button for New Project.  Choose the option of New Project from a Git Repo.  The repo address is https://github.com/nuitrcs/r-intro-summer2019.  
+If you're using RStudio Cloud, go to https://rstudio.cloud and log in (or create an account if needed).  Click on Your Workspace in the left Menu.  Then make sure you are on the Projects tab, and click down arrow in the blue button for New Project.  Choose the option of **New Project from a Git Repo**.  The repo address is https://github.com/nuitrcs/r-intro-summer2019.  
 
 ![rstudio cloud new project](images/rstudiocloud.png)
 
-This will copy all of the files from this repository into your new project.  This will take a few moments to copy files from this repository.  You'll then need to install packages.  The tidyverse package will take a while to install.  
+This will copy all of the files from this repository into your new project.  This will take a few moments to copy files from this repository.  You'll then need to install packages listed on the handout.  
 
 You can use this space like you would your RStudio on own computer, except you can only access the files that are part of the project and save files within the project.
 

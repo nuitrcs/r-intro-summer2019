@@ -1,15 +1,12 @@
 # Exercise G3
 
-# Setup (from Exercise A)
-library(qdapTools)
+# Setup 
 
-safi <- read.csv("data/SAFI_clean.csv", 
+safi <- read.csv("data/SAFI_months.csv", 
                  na = c("", "NULL", "NA"),
                  stringsAsFactors = FALSE)
-month_indicators <- mtabulate(strsplit(safi$months_lack_food, ";"))
-names(month_indicators) <- substr(names(month_indicators), 0, 3)  # shorten column names to 3 letter abbrev.
-month_indicators <- month_indicators[,month.abb]  # reorder columns
-safi$months_lack_food_count <- apply(month_indicators, 1, sum)
+safi$respondent_wall_type <- factor(trimws(safi$respondent_wall_type))  # categorical
+safi$months_lack_food_count <- apply(safi[,month.abb], 1, sum)
 
 # Run a linear regression to predict months_lack_food_count as the dependent variable, 
 # with independent variables years_liv, rooms, respondent_wall_type, no_membrs

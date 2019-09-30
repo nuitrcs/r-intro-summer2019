@@ -15,6 +15,8 @@ safi$respondent_wall_type <- factor(trimws(safi$respondent_wall_type))  # catego
 safi$affect_conflicts <- factor(safi$affect_conflicts, ordered=TRUE,
                                 levels=c("never","once","more_once","frequently"))
 safi$interview_date <- ymd_hms(safi$interview_date)  # date
+# if you're missing the lubridate package, use this line instead of the one above:
+# safi$interview_date <- as.Date(safi$interview_date)  # date
 safi$memb_assoc <- ifelse(is.na(safi$memb_assoc), NA, 
                           ifelse(safi$memb_assoc == "yes", TRUE, FALSE)) # yes/no to T/F
 

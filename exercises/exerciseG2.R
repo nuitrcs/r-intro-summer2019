@@ -1,9 +1,10 @@
 # Exercise G2
 
 # install a new package with babynames data
+# Note: normally, do not include install.packages commands in your scripts
 install.packages("babynames")
 library(babynames)
-library(tidyr)  # installed as part of tidyverse
+library(tidyr)  # installed as part of tidyverse (you can install it separately if needed)
 
 # there's a dataframe called babynames in the library; look at the first few observations.
 # note that a tibble is a dataframe with a few special behaviors -- you can treat it as a dataframe
